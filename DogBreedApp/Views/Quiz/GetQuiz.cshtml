@@ -1,0 +1,36 @@
+﻿@model ICollection<QuestionViewModel>
+@{
+    ViewData["Title"] = "GetQuiz";
+}
+@section scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
+
+<div class="container body-content">
+    <h3 style="margin-bottom: 30px; text-align: center;">Please complete this Questionnaire to find out the dog breed that best suits you!</h3>
+    <div class="col-md-8 col-md-offset-2">
+        <div asp-validation-summary="ModelOnly" class="text-danger text-center bg-warning"></div>
+        @using (Html.BeginForm("GetQuiz", "Quiz", FormMethod.Post))
+        {
+            @foreach (QuestionViewModel question in Model)
+            {
+                <div class="form-group" style="margin-bottom:30px;">
+                    <h3>@(question.QuestionId). @(question.Sentence)</h3>
+                    @foreach (AnswersViewModel answer in question.Answers)
+                    {
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="question_@(question.QuestionId)" value="@answer.Id">
+                                @answer.Sentence
+                            </label>
+                        </div>
+                    }
+                </div>
+            }
+            <div class="form-group">
+                <input type="submit" value="Submit" class="btn btn-lg btn-success center-block"/>
+            </div>
+        }
+    </div>
+</div>

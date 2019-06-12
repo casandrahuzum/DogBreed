@@ -1,0 +1,48 @@
+﻿@model BreedViewModel
+@{
+    ViewData["Title"] = "Breed";
+}
+
+<div class="container body-content">
+    <h2 class="title">@Model.Name</h2>
+
+        <div class="col-md-4" style="position: fixed;" >
+            <img src="~/images/breeds/@(Model.Name).jpg" class="img-responsive" alt="image of a @Model.Name" />
+        </div>
+
+    <div class="col-md-6 col-md-offset-6">
+        <h3 style="font-weight: 600;">Characteristics:</h3>
+        <div id="characteristics-scroll">
+            <div style="overflow-y: auto; height: 100%;">
+                <ul class="list-group">
+                    @foreach (BreedCharacteristicViewModel breedCharacteristic in Model.BreedCharacteristics)
+                    {
+                        var prettyName = breedCharacteristic.CharacteristicName;
+                        int index = 1;
+                        while (index < prettyName.Length)
+                        {
+                            if (char.IsUpper(prettyName[index]))
+                            {
+                                prettyName = prettyName.Insert(index, " ");
+                                index++;
+                            }
+                            index++;
+                        }
+
+                        <li class="list-group-item">
+                            @prettyName
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="@(breedCharacteristic.Score)"
+                                     aria-valuemin="0" aria-valuemax="5" style="width: @(breedCharacteristic.Score * 20)%;">
+
+                                    @breedCharacteristic.Score
+                                </div>
+                            </div>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>

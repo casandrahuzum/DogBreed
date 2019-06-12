@@ -1,0 +1,863 @@
+[
+	{
+		"Sentence": "What dog size are you considering?",
+		"Answers": [
+			{
+				"Sentence": "XS",
+				"Characteristics": [
+					{
+						"CharacteristicName": "Size",
+						"Score": 1
+					}
+				]
+			},
+			{
+				"Sentence": "S",
+				"Characteristics": [
+					{
+						"CharacteristicName": "Size",
+						"Score": 2
+					}
+				]
+			},
+			{
+				"Sentence": "M",
+				"Characteristics": [
+					{
+						"CharacteristicName": "Size",
+						"Score": 3
+					}
+				]
+			},
+			{
+				"Sentence": "L",
+				"Characteristics": [
+					{
+						"CharacteristicName": "Size",
+						"Score": 4
+					}
+				]
+			},
+			{
+				"Sentence": "XL",
+				"Characteristics": [
+					{
+						"CharacteristicName": "Size",
+						"Score": 5
+					}
+				]
+			}
+		]
+	},
+	{
+		"Sentence": "How energic do you want your new dog to be?",
+		"Answers": [
+			{
+				"Sentence": "A couch potato.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "EnergyLevel",
+						"Score": 1
+					}
+				]
+			},
+			{
+				"Sentence": "A cuddle friend who doesn't need tons of exercise.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "EnergyLevel",
+						"Score": 2
+					}
+				]
+			},
+			{
+				"Sentence": "A jogger.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "EnergyLevel",
+						"Score": 3
+					}
+				]
+			},
+			{
+				"Sentence": "A sporty, high-energy dog.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "EnergyLevel",
+						"Score": 4
+					}
+				]
+			},
+			{
+				"Sentence": "An agility wiz.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "EnergyLevel",
+						"Score": 5
+					}
+				]
+			}
+		]
+	},
+	{
+		"Sentence": "How much time can you devote to exercising your dog daily?",
+		"Answers": [
+			{
+				"Sentence": "30-45 minutes",
+				"Characteristics": [
+					{
+						"CharacteristicName": "ExerciseNeeds",
+						"Score": 4
+					}
+				]
+			},
+			{
+				"Sentence": "60 minutes or more",
+				"Characteristics": [
+					{
+						"CharacteristicName": "ExerciseNeeds",
+						"Score": 5
+					},
+					{
+						"CharacteristicName": "PotentialForWeightGain",
+						"Score": 5
+					}
+				]
+			},
+			{
+				"Sentence": "20-30 minutes",
+				"Characteristics": [
+					{
+						"CharacteristicName": "ExerciseNeeds",
+						"Score": 3
+					},
+					{
+						"CharacteristicName": "PotentialForWeightGain",
+						"Score": 3
+					}
+				]
+			},
+			{
+				"Sentence": "Little to none.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "ExerciseNeeds",
+						"Score": 2
+					},
+					{
+						"CharacteristicName": "PotentialForWeightGain",
+						"Score": 2
+					}
+				]
+			},
+			{
+				"Sentence": "Not important.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "ExerciseNeeds",
+						"Score": 0
+					},
+					{
+						"CharacteristicName": "PotentialForWeightGain",
+						"Score": 0
+					}
+				]
+			}
+		]
+	},
+	{
+		"Sentence": "How often will you be able to play with your dog?",
+		"Answers": [
+			{
+				"Sentence": "All day. Someone will always be home with it.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "PotentialForPlayfulness",
+						"Score": 5
+					},
+					{
+						"CharacteristicName": "ToleratesBeingAlone",
+						"Score": 1
+					}
+				]
+			},
+			{
+				"Sentence": "A few times a day. There is usually someone at home with it.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "PotentialForPlayfulness",
+						"Score": 4
+					},
+					{
+						"CharacteristicName": "ToleratesBeingAlone",
+						"Score": 2
+					}
+				]
+			},
+			{
+				"Sentence": "At least once a day. The dog will be alone at home between 3-5 hours daily.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "PotentialForPlayfulness",
+						"Score": 3
+					},
+					{
+						"CharacteristicName": "ToleratesBeingAlone",
+						"Score": 3
+					}
+				]
+			},
+			{
+				"Sentence": "Not daily but maybe once a week. The dog will be alone most of the time.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "PotentialForPlayfulness",
+						"Score": 1
+					},
+					{
+						"CharacteristicName": "ToleratesBeingAlone",
+						"Score": 5
+					}
+				]
+			}
+		]
+	},
+	{
+		"Sentence": "Do you have other pets?",
+		"Answers": [
+			{
+				"Sentence": "Yes. I have other dogs.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "DogFriendly",
+						"Score": 5
+					},
+					{
+						"CharacteristicName": "PreyDrive",
+						"Score": 0
+					}
+				]
+			},
+			{
+				"Sentence": "Yes. I have small pets like cats or hamsters.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "DogFriendly",
+						"Score": 0
+					},
+					{
+						"CharacteristicName": "PreyDrive",
+						"Score": 1
+					}
+				]
+			},
+			{
+				"Sentence": "No. But I plan on having my dog interact with other animals.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "DogFriendly",
+						"Score": 3
+					},
+					{
+						"CharacteristicName": "PreyDrive",
+						"Score": 3
+					}
+				]
+			},
+			{
+				"Sentence": "No.I'm looking for a dog who can hunt, so friendliness towards other animals isn't a top priority.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "DogFriendly",
+						"Score": 2
+					},
+					{
+						"CharacteristicName": "PreyDrive",
+						"Score": 5
+					}
+				]
+			}
+		]
+	},
+	{
+		"Sentence": "How trainable would you like your dog to be?",
+		"Answers": [
+			{
+				"Sentence": "Very trainable. I plan to teach him all the basic commands, plus a lot of fun tricks.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "EasyToTrain",
+						"Score": 5
+					}
+				]
+			},
+			{
+				"Sentence": "Fairly trainable. He needs to know all the basic commands.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "EasyToTrain",
+						"Score": 3
+					}
+				]
+			},
+			{
+				"Sentence": "Not very trainable. I have a laid-back approach to rules and commands.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "EasyToTrain",
+						"Score": 2
+					}
+				]
+			},
+			{
+				"Sentence": "Not important.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "EasyToTrain",
+						"Score": 0
+					}
+				]
+			}
+		]
+	},
+	{
+		"Sentence": "How much maintenance and grooming are you able to provide for your dog?",
+		"Answers": [
+			{
+				"Sentence": "Think nothing of giving him a haircut or baths as needed.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "EasyToGroom",
+						"Score": 2
+					}
+				]
+			},
+			{
+				"Sentence": "Don't mind giving him a bath, but I draw the line at haircuts.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "EasyToGroom",
+						"Score": 3
+					}
+				]
+			},
+			{
+				"Sentence": "I want a dog that's as low maintenance as possible.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "EasyToGroom",
+						"Score": 4
+					}
+				]
+			},
+			{
+				"Sentence": "Not important.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "EasyToGroom",
+						"Score": 0
+					}
+				]
+			}
+		]
+	},
+	{
+		"Sentence": "What kind of temperature tolerance does your new dog need to have?",
+		"Answers": [
+			{
+				"Sentence": "I live in a warm climate, so he needs to tolerate hot weather.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "ToleratesHotWeather",
+						"Score": 5
+					},
+					{
+						"CharacteristicName": "ToleratesColdWeather",
+						"Score": 1
+					}
+				]
+			},
+			{
+				"Sentence": "I live in a cold climate, so he needs to tolerate cold weather.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "ToleratesHotWeather",
+						"Score": 1
+					},
+					{
+						"CharacteristicName": "ToleratesColdWeather",
+						"Score": 5
+					}
+				]
+			},
+			{
+				"Sentence": "I live where it's warm during summer and cold during winter, so he needs to tolerate both warm and cold weather.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "ToleratesHotWeather",
+						"Score": 3
+					},
+					{
+						"CharacteristicName": "ToleratesColdWeather",
+						"Score": 3
+					}
+				]
+			}
+		]
+	},
+	{
+		"Sentence": "How smart would you like your dog to be?",
+		"Answers": [
+			{
+				"Sentence": "Smart enough to keep me on my toes.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "Intelligence",
+						"Score": 5
+					}
+				]
+			},
+			{
+				"Sentence": "Responsive, but no smarter than I am!",
+				"Characteristics": [
+					{
+						"CharacteristicName": "Intelligence",
+						"Score": 3
+					}
+				]
+			},
+			{
+				"Sentence": "Not important.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "Intelligence",
+						"Score": 0
+					}
+				]
+			}
+		]
+	},
+	{
+		"Sentence": "What kind of home do you have?",
+		"Answers": [
+			{
+				"Sentence": "Apartment without any outside area and with neighbours close by.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "AdaptsWellToApartmentLiving",
+						"Score": 5
+					},
+					{
+						"CharacteristicName": "TendencyToBarkOrHowl",
+						"Score": 1
+					},
+					{
+						"CharacteristicName": "WanderlustPotential",
+						"Score": 1
+					},
+					{
+						"CharacteristicName": "PotentialForMouthiness",
+						"Score": 1
+					}
+				]
+			},
+			{
+				"Sentence": "House/apartment with some outdoor space (garden, terrace, large balcony) in a densely populated area.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "AdaptsWellToApartmentLiving",
+						"Score": 4
+					},
+					{
+						"CharacteristicName": "TendencyToBarkOrHowl",
+						"Score": 2
+					},
+					{
+						"CharacteristicName": "WanderlustPotential",
+						"Score": 2
+					},
+					{
+						"CharacteristicName": "PotentialForMouthiness",
+						"Score": 3
+					}
+				]
+			},
+			{
+				"Sentence": "Free-standing house with a garden and some distance to our neighbours.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "AdaptsWellToApartmentLiving",
+						"Score": 2
+					},
+					{
+						"CharacteristicName": "TendencyToBarkOrHowl",
+						"Score": 3
+					},
+					{
+						"CharacteristicName": "WanderlustPotential",
+						"Score": 3
+					},
+					{
+						"CharacteristicName": "PotentialForMouthiness",
+						"Score": 4
+					}
+				]
+			},
+			{
+				"Sentence": "Large property with lots of space and a large outdoor area for the dog.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "AdaptsWellToApartmentLiving",
+						"Score": 1
+					},
+					{
+						"CharacteristicName": "TendencyToBarkOrHowl",
+						"Score": 5
+					},
+					{
+						"CharacteristicName": "WanderlustPotential",
+						"Score": 5
+					},
+					{
+						"CharacteristicName": "PotentialForMouthiness",
+						"Score": 5
+					}
+				]
+			}
+		]
+	},
+	{
+		"Sentence": "What kind of amusement park ride best describes the energy in your home?",
+		"Answers": [
+			{
+				"Sentence": "Carousel (not many surprises).",
+				"Characteristics": [
+					{
+						"CharacteristicName": "SensitivityLevel",
+						"Score": 4
+					}
+				]
+			},
+			{
+				"Sentence": "Ferris wheel (ups and downs but fairly predictable).",
+				"Characteristics": [
+					{
+						"CharacteristicName": "SensitivityLevel",
+						"Score": 3
+					}
+				]
+			},
+			{
+				"Sentence": "Log ride (boisterous and noisy but not out of control).",
+				"Characteristics": [
+					{
+						"CharacteristicName": "SensitivityLevel",
+						"Score": 2
+					}
+				]
+			},
+			{
+				"Sentence": "Roller coaster (sometimes a little too exciting and unpredictable).",
+				"Characteristics": [
+					{
+						"CharacteristicName": "SensitivityLevel",
+						"Score": 1
+					}
+				]
+			}
+		]
+	},
+	{
+		"Sentence": "Do you have children in your home? How old are they?",
+		"Answers": [
+			{
+				"Sentence": "Yes. They are 7 or under.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "IncrediblyKidFriendlyDogs",
+						"Score": 4
+					},
+					{
+						"CharacteristicName": "AffectionateWithFamily",
+						"Score": 5
+					}
+				]
+			},
+			{
+				"Sentence": "Yes. They are 8 or above.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "IncrediblyKidFriendlyDogs",
+						"Score": 3
+					},
+					{
+						"CharacteristicName": "AffectionateWithFamily",
+						"Score": 4
+					}
+				]
+			},
+			{
+				"Sentence": "No, but I am planing to in the next few years.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "IncrediblyKidFriendlyDogs",
+						"Score": 5
+					},
+					{
+						"CharacteristicName": "AffectionateWithFamily",
+						"Score": 3
+					}
+				]
+			},
+			{
+				"Sentence": "No, it's just me and my partner.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "IncrediblyKidFriendlyDogs",
+						"Score": 2
+					},
+					{
+						"CharacteristicName": "AffectionateWithFamily",
+						"Score": 2
+					}
+				]
+			},
+			{
+				"Sentence": "No, it's just me.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "IncrediblyKidFriendlyDogs",
+						"Score": 1
+					},
+					{
+						"CharacteristicName": "AffectionateWithFamily",
+						"Score": 1
+					}
+				]
+			}
+		]
+	},
+	{
+		"Sentence": "How much does fur bother you?",
+		"Answers": [
+			{
+				"Sentence": "Not a bit.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "AmountOfShedding",
+						"Score": 5
+					}
+				]
+			},
+			{
+				"Sentence": "I don't mind a little fur",
+				"Characteristics": [
+					{
+						"CharacteristicName": "AmountOfShedding",
+						"Score": 3
+					}
+				]
+			},
+			{
+				"Sentence": "I hate the idea of hair on my clothes or furniture.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "AmountOfShedding",
+						"Score": 1
+					}
+				]
+			},
+			{
+				"Sentence": "Not important.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "AmountOfShedding",
+						"Score": 0
+					}
+				]
+			}
+		]
+	},
+	{
+		"Sentence": "How much does drooling bother you?",
+		"Answers": [
+			{
+				"Sentence": "Not a bit.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "DroolingPotential",
+						"Score": 5
+					}
+				]
+			},
+			{
+				"Sentence": "Not my favorite, but I can deal with a little. Especially if it's the right dog.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "DroolingPotential",
+						"Score": 3
+					}
+				]
+			},
+			{
+				"Sentence": "I really don't like it.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "DroolingPotential",
+						"Score": 1
+					}
+				]
+			},
+			{
+				"Sentence": "Not important.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "DroolingPotential",
+						"Score": 0
+					}
+				]
+			}
+		]
+	},
+	{
+		"Sentence": "What is your experience with dogs?",
+		"Answers": [
+			{
+				"Sentence": "This will be my first dog.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "GoodForNoviceOwners",
+						"Score": 5
+					}
+				]
+			},
+			{
+				"Sentence": "I had a dog as a child.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "GoodForNoviceOwners",
+						"Score": 4
+					}
+				]
+			},
+			{
+				"Sentence": "I owned a dog in the past.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "GoodForNoviceOwners",
+						"Score": 3
+					}
+				]
+			},
+			{
+				"Sentence": "I currently own one or more dogs.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "GoodForNoviceOwners",
+						"Score": 2
+					}
+				]
+			},
+			{
+				"Sentence": "I consider myself an expert in dogs.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "GoodForNoviceOwners",
+						"Score": 1
+					}
+				]
+			}
+		]
+	},
+	{
+		"Sentence": "How friendly would you like your dog to be towards strangers?",
+		"Answers": [
+			{
+				"Sentence": "Not at all. I want a guard dog.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "FriendlyTowardStrangers",
+						"Score": 1
+					}
+				]
+			},
+			{
+				"Sentence": "Not particularly friendly. I want him to protect my home.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "FriendlyTowardStrangers",
+						"Score": 2
+					}
+				]
+			},
+			{
+				"Sentence": "Strangers should be acceptable to him.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "FriendlyTowardStrangers",
+						"Score": 3
+					}
+				]
+			},
+			{
+				"Sentence": "Friendly, but not too afectionate.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "FriendlyTowardStrangers",
+						"Score": 4
+					}
+				]
+			},
+			{
+				"Sentence": "Very friendly. Our dog will be surrounded by people all the time.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "FriendlyTowardStrangers",
+						"Score": 5
+					}
+				]
+			}
+		]
+	},
+	{
+		"Sentence": "Who will be the main carer of the dog?",
+		"Answers": [
+			{
+				"Sentence": "We want the kids to look after it. The kids are aged 10+.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "Intensity",
+						"Score": 4
+					}
+				]
+			},
+			{
+				"Sentence": "An adult in the household (below 60 years of age).",
+				"Characteristics": [
+					{
+						"CharacteristicName": "Intensity",
+						"Score": 3
+					}
+				]
+			},
+			{
+				"Sentence": "An adult between 60 and 80 years old who is physically fit and healthy.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "Intensity",
+						"Score": 2
+					}
+				]
+			},
+			{
+				"Sentence": "An elderly or handicapped person who can't get out much.",
+				"Characteristics": [
+					{
+						"CharacteristicName": "Intensity",
+						"Score": 1
+					}
+				]
+			}
+		]
+	}
+]

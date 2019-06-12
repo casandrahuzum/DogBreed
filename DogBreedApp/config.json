@@ -1,0 +1,5 @@
+﻿{
+  "ConnectionStrings": {
+    "DogConnectionString": "server=CASANDRA-PC\\SQLEXPRESS;Database=DogBreedDb;Integrated Security=true;MultipleActiveResultSets=true;"
+  }
+}

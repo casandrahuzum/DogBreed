@@ -1,0 +1,42 @@
+﻿@model LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+}
+@section scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
+<div class="container body-content">
+    <div class="col-md-6">
+    <h3 style="margin-bottom: 20px;">Please Login!</h3>
+        <div class="col-md-8">
+            <form method="post">
+                <div asp-validation-summary="ModelOnly"></div>
+                <div class="form-group">
+                    <label asp-for="Username">Username</label>
+                    <input asp-for="Username" class="form-control" />
+                    <span asp-validation-for="Username" class="text-warning"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password">Password</label>
+                    <input asp-for="Password" type="password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-warning"></span>
+                </div>
+                <div class="form-group">
+                    <input asp-for="RememberMe" type="checkbox" class="checkbox-inline" />
+                    <label asp-for="RememberMe">Remember Me?</label>
+                    <span asp-validation-for="RememberMe" class="text-warning"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Login" class="btn btn-success" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="col-md-5">
+        <h3 style="margin-bottom: 20px;">You do not have an account yet?<br /> Register here:</h3>
+        <button class="btn btn-info btn-lg" onclick="location.pathname = '/Account/Register'">Register</button>
+    </div>
+</div>
+

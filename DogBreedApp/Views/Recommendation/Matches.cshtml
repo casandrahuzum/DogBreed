@@ -1,0 +1,32 @@
+﻿@model IEnumerable<BreedMatchViewModel>
+@{
+    ViewData["Title"] = "Matches";
+}
+
+<div class="container body-content">
+    <h3>Hello, @(Model.First().UserName)!</h3>
+    <h2 class="title">Your Top 5 Matches:</h2>
+    @for (int i = 0; i < 10; i++)
+    {
+        <div class="col-md-6 col-md-offset-3">
+            <div class="well well-sm breed-container" onclick="location.pathname = '/breed/@(Model.ElementAt(i).BreedId)'">
+                <div class="col-sm-7">
+                    <img src="~/images/breeds/@(Model.ElementAt(i).BreedName).jpg" class="img-responsive dog-image" alt="image of a @(Model.ElementAt(i).BreedName)" />
+                    <h3 class="dog-name col-sm-7">@(Model.ElementAt(i).BreedName)</h3>
+                </div>
+                <div class="col-sm-4 col-sm-offset-1">
+                    <h4>Match Score: </h4>
+                    <div class="c100 p@(Model.ElementAt(i).MatchScore.ToString("0"))">
+                        <span>@(Model.ElementAt(i).MatchScore.ToString("0.00"))%</span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    }
+</div>
+

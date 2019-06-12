@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Breed>
+@{
+    ViewData["Title"] = "AllDogBreeds";
+}
+<div class="container body-content">
+    <h2 class="title"> All Dog Breeds: </h2>
+
+    @foreach (Breed breed in Model)
+    {
+        <div class="col-md-4">
+            <div class="well well-sm breed-container" onclick="location.pathname = '/breed/@(breed.Id)'">
+                <img src="~/images/breeds/@(breed.Name).jpg" class="img-responsive dog-image" alt="image of a @breed.Name" />
+                <div>
+                    <h3 class="dog-name col-sm-7">@breed.Name</h3>
+                    <div class="dog-size col-sm-5">
+                        @switch (breed.BreedCharacteristics.First<BreedCharacteristic>(bc => bc.Characteristic.Name.Equals("Size")).Score)
+                        {
+                            case 1:<img src="~/images/xs.jpg" /> break;
+                            case 2: <img src="~/images/s.jpg" /> break;
+                            case 3: <img src="~/images/m.jpg" /> break;
+                            case 4: <img src="~/images/l.jpg" /> break;
+                            case 5: <img src="~/images/xl.jpg" />break;
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+

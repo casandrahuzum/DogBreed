@@ -1,0 +1,11 @@
+D:\faculta\licenta\DogBreedApp\DogBreedApp\DogBreedApp\bin\Debug\netcoreapp2.0\DogBreedApp.deps.json
+D:\faculta\licenta\DogBreedApp\DogBreedApp\DogBreedApp\bin\Debug\netcoreapp2.0\DogBreedApp.runtimeconfig.json
+D:\faculta\licenta\DogBreedApp\DogBreedApp\DogBreedApp\bin\Debug\netcoreapp2.0\DogBreedApp.runtimeconfig.dev.json
+D:\faculta\licenta\DogBreedApp\DogBreedApp\DogBreedApp\bin\Debug\netcoreapp2.0\DogBreedApp.dll
+D:\faculta\licenta\DogBreedApp\DogBreedApp\DogBreedApp\bin\Debug\netcoreapp2.0\DogBreedApp.pdb
+D:\faculta\licenta\DogBreedApp\DogBreedApp\DogBreedApp\obj\Debug\netcoreapp2.0\DogBreedApp.csproj.CoreCompileInputs.cache
+D:\faculta\licenta\DogBreedApp\DogBreedApp\DogBreedApp\obj\Debug\netcoreapp2.0\DogBreedApp.AssemblyInfoInputs.cache
+D:\faculta\licenta\DogBreedApp\DogBreedApp\DogBreedApp\obj\Debug\netcoreapp2.0\DogBreedApp.AssemblyInfo.cs
+D:\faculta\licenta\DogBreedApp\DogBreedApp\DogBreedApp\obj\Debug\netcoreapp2.0\DogBreedApp.dll
+D:\faculta\licenta\DogBreedApp\DogBreedApp\DogBreedApp\obj\Debug\netcoreapp2.0\DogBreedApp.pdb
+D:\faculta\licenta\DogBreedApp\DogBreedApp\DogBreedApp\obj\Debug\netcoreapp2.0\DogBreedApp.csprojAssemblyReference.cache
